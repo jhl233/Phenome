@@ -1,0 +1,165 @@
+
+use strict;
+use warnings;
+
+use CXGN::BioTools::AceTools;
+use List::Util qw/min max/;
+use Text::Wrap;
+use SGN::Context;
+
+#---set the text wrap to 60 characters per line---
+
+$Text::Wrap::columns = 60;
+
+
+#---determine input and output files---
+
+my $input = '/home/jhl233/MIRA/mira_3.2.0rc1_dev_linux-gnu_i686_32_static/tomato_loci_assembly2/loci2_assembly/loci2_d_results/loci2_out.ace';
+
+my $output = '>/home/jhl233/MIRA/mira_3.2.0rc1_dev_linux-gnu_i686_32_static/tomato_loci_assembly2/loci2_assembly/loci2_d_results/loci2_out_multi.fasta';
+
+
+#---determine index directory, tab directory, and index hash ref---
+
+print "\n"."Indexing ace file...\n";
+
+my $index_dir="/home/jhl233/cxgn/index_files/testindex.db";
+
+my $index_hash = CXGN::BioTools::AceTools->build_index_file($input, $index_dir);
+
+
+#---convert ace file to an aligned multi-fasta file---
+
+print "Converting ace to fasta...\n";
+
+
+#---open output file---
+
+open OUTPUT, $output;
+
+
+
+######################################    
+#---CREATE ALIGNMENT FOR EACH LOCUS---
+######################################
+
+while ( my ($contig_id, $byte) = each(%$index_hash) ) {
+
+    my $loci_hash = CXGN::BioTools::AceTools->get_contig_information($byte, $input, $contig_id);
+
+
+    ### NOTE: The alignments will be centered at 1 on the consensus sequence
+    
+    my (@start_coord, @end_coord); # will store starting and ending coordinates for later comparison 
+	
+    while ( my ($key, $value) = each(%$loci_hash) ){
+       
+	# get read_id
+	if ($key =~ /(\S+)_sc/){
+	    my $read_id = $1;
+	    
+	    # get start coordinate
+	    my ($start, $end);
+	    if ($loci_hash->{$read_id."_sc"} =~ /(\-?\d+)-(\-?\d+)/){
+		$start = $1;
+	    }
+	    
+	    # get the proper end coordinate (add length of sequence to start coordinate)
+	    if ($loci_hash->{$read_id."_rc"} =~ /\d+-(\d+)/){
+		my $seq_length = $1;
+		$end = $start + $seq_length - 1;
+	    }
+	    
+	    # store sequence coordinates in arrays
+	    push ( @start_coord, $start );
+	    push ( @end_coord, $end );
+	    
+	    # remove all white space from sequences (including beginning and trailing white space)
+	    $loci_hash->{$read_id} =~ s/\s+//g;
+	}
+    }
+
+    #store consensus coordinates in arrays
+    push( @start_coord, 1 );
+    push( @end_coord, $loci_hash->{$contig_id."_length"} );
+
+    #remove all white space from consensus sequence (including beginning and trailing white space)
+    $loci_hash->{$contig_id} =~ s/\s+//g;
+
+    # find minimum start coordinate
+    my $min = min( @start_coord );
+
+    # find maximum end coordinate
+    my $max = max( @end_coord );
+
+    # if consensus does not start at min_start coordinate, add dashes to beginning of consensus sequence
+    if ($min < 1){
+	$loci_hash->{$contig_id} = "-" x (1 - $min) . $loci_hash->{$contig_id};
+    }
+
+    # if consensus does not end at max_end coordinate, add dashes to end of consensus sequence
+    if ($loci_hash->{$contig_id."_length"} < $max){
+	$loci_hash->{$contig_id} .= "-" x ($max - $loci_hash->{$contig_id."_length"});
+    }
+
+    # reformat sequence to have text wrap
+    $loci_hash->{$contig_id} = wrap('', '', $loci_hash->{$contig_id});
+
+    # PRINT CONSENSUS TO FASTA FILE
+    print OUTPUT ">".$contig_id."\n".$loci_hash->{$contig_id}."\n";
+
+    # loop for regular sequences
+    while (my ($key, $value) = each(%$loci_hash) ){
+
+	# get read_id
+	my $read_id;
+	if ($key =~ /(\S+)_sc/){
+	    $read_id = $1;
+
+	    my ($start, $end);
+
+	    # get start coordinate
+	    if ($loci_hash->{$read_id."_sc"} =~ /(\-?\d+)-(\-?\d+)/){
+		$start = $1;
+	    }
+	    # get end coordinate (add length of sequence to start coordinate)
+	    if ($loci_hash->{$read_id."_rc"} =~ /\d+-(\d+)/){
+		my $seq_length = $1;
+		$end = $start + $seq_length - 1;
+	    }
+
+	    # if sequence does not start at min coordinate, add dashes to beginning of sequence
+	    if ($min < $start){
+		$loci_hash->{$read_id} = "-" x ($start - $min) . $loci_hash->{$read_id};
+	    }
+	    
+	    # if sequence does not start at max coordinate, add dashes to end of sequence
+	    if ($end < $max){
+		$loci_hash->{$read_id} .= "-" x ($max - $end);
+	    }
+	    
+	    # reformat sequence to have text wrap
+	    $loci_hash->{$read_id} = wrap('', '', $loci_hash->{$read_id});
+	    
+	    # PRINT SEQUENCE TO FASTA FILE
+	    print OUTPUT ">".$read_id."\n".$loci_hash->{$read_id}."\n";
+	    
+	}
+    }
+}
+
+
+close OUTPUT;
+
+print "Conversion to fasta complete.\n";
+
+
+############################################################
+#---STORE FILES IN WEB DIRECTORY - CODE NOT YET COMPLETED---
+############################################################
+
+my $c = SGN::Context->new();
+
+my $temp_file = $c->get_conf('static_datasets_path');
+
+my $new_path = File::Spec->catfile($temp_file, 'loci/loci2_out_multi.fasta');

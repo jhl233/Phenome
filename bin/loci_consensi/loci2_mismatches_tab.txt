@@ -1,0 +1,314 @@
+#
+#
+# This file shows the consensi that have more than one tomato loci associated with them
+# (which is a problem, because the consensi should be for one loci only). This could
+# be due to a mistake in the database or because one of the sequences was actually an
+# allele. Please see the bottom of the file to see the number of consensi affected.
+#
+#
+consensi_id	 locus_id	       name		     locus_name
+loci2_rep_c1	   5163		SGN-L5163-AJ249594   	PSTVd RNA-biding protein
+loci2_rep_c1	   5163		SGN-L5163-AF190893   	PSTVd RNA-biding protein
+loci2_rep_c1	   5513		SGN-U572928-5513   	arginine decarboxylase
+loci2_rep_c1	   5163		SGN-L5163-AF190894   	PSTVd RNA-biding protein
+loci2_rep_c1	   5163		SGN-U572928-5163   	PSTVd RNA-biding protein
+loci2_rep_c1	   5163		SGN-L5163-AJ249595   	PSTVd RNA-biding protein
+loci2_rep_c1	   5163		SGN-L5163-AJ249593   	PSTVd RNA-biding protein
+loci2_rep_c1	   5163		SGN-L5163-AF190892   	PSTVd RNA-biding protein
+loci2_rep_c1	   5163		SGN-L5163-AJ249592   	PSTVd RNA-biding protein
+loci2_rep_c1	   5163		SGN-L5163-AF190891   	PSTVd RNA-biding protein
+loci2_rep_c1	   5163		SGN-L5163-AK247066   	PSTVd RNA-biding protein
+loci2_rep_c1	   5163		SGN-L5163-AJ421397   	PSTVd RNA-biding protein
+loci2_rep_c2	   1599		SGN-L1599-A21360   	Phytoene synthase 1
+loci2_rep_c2	   1599		SGN-U580527-1599   	Phytoene synthase 1
+loci2_rep_c2	   5338		SGN-U580527-5338   	phytoene synthase
+loci2_rep_c2	   1599		SGN-L1599-EF157836   	Phytoene synthase 1
+loci2_rep_c2	   1599		SGN-L1599-AK247060   	Phytoene synthase 1
+loci2_rep_c2	   1599		SGN-L1599-EF534739   	Phytoene synthase 1
+loci2_rep_c2	   1599		SGN-L1599-EF650010   	Phytoene synthase 1
+loci2_rep_c2	   1599		SGN-U590050-1599   	Phytoene synthase 1
+loci2_rep_c2	   5338		SGN-U590050-5338   	phytoene synthase
+loci2_rep_c3	   1335		SGN-L1335-AF279453   	sesquiterpene synthase 1
+loci2_rep_c3	   4474		SGN-L4474-AF035631   	germacrene C
+loci2_rep_c3	   1335		SGN-U572432-1335   	sesquiterpene synthase 1
+loci2_rep_c3	   4474		SGN-U572432-4474   	germacrene C
+loci2_rep_c3	   4471		SGN-U572432-4471   	sesquiterpene synthase 2
+loci2_rep_c3	   4474		SGN-L4474-AF035630   	germacrene C
+loci2_rep_c3	   4471		SGN-L4471-AF279454   	sesquiterpene synthase 2
+loci2_rep_c6	   1165		SGN-L1165-AJ001915   	phytochrome A, type 2
+loci2_rep_c6	   1164		SGN-U582123-1164   	phytochrome A, type 1
+loci2_rep_c6	   1165		SGN-U582123-1165   	phytochrome A, type 2
+loci2_rep_c7	   1165		SGN-U582122-1165   	phytochrome A, type 2
+loci2_rep_c7	   1164		SGN-U582122-1164   	phytochrome A, type 1
+loci2_rep_c7	   1165		SGN-L1165-AJ001916   	phytochrome A, type 2
+loci2_rep_c8	   1164		SGN-L1164-AJ001914   	phytochrome A, type 1
+loci2_rep_c8	   1165		SGN-U594815-1165   	phytochrome A, type 2
+loci2_rep_c8	   1164		SGN-U594815-1164   	phytochrome A, type 1
+loci2_rep_c9	   1126		SGN-L1126-U50985   	pectin methylesterase 2
+loci2_rep_c9	   1125		SGN-U563073-1125   	pectin methylesterase 1
+loci2_rep_c9	   1126		SGN-L1126-X74639   	pectin methylesterase 2
+loci2_rep_c9	   1126		SGN-U563073-1126   	pectin methylesterase 2
+loci2_rep_c9	   1126		SGN-L1126-A15983   	pectin methylesterase 2
+loci2_rep_c9	   1126		SGN-L1126-X07910   	pectin methylesterase 2
+loci2_rep_c10	   853		SGN-L853-U50151   	leucine aminopeptidase 2
+loci2_rep_c10	   5600		SGN-U577971-5600   	leucine aminopeptidase A
+loci2_rep_c10	   8234		SGN-U577971-8234   	Leucine aminopeptidase A1
+loci2_rep_c10	   853		SGN-U577971-853   	leucine aminopeptidase 2
+loci2_rep_c10	   853		SGN-L853-U20593   	leucine aminopeptidase 2
+loci2_rep_c17	   811		SGN-U567885-811   	LELYCOCYC lycopene epsilon-cyclase
+loci2_rep_c17	   391		SGN-L391-Y14387   	Delta
+loci2_rep_c17	   391		SGN-U567885-391   	Delta
+loci2_rep_c17	   391		SGN-L391-EU533951   	Delta
+loci2_rep_c17	   811		SGN-L811-Y14387   	LELYCOCYC lycopene epsilon-cyclase
+loci2_rep_c17	   811		SGN-L811-EU533951   	LELYCOCYC lycopene epsilon-cyclase
+loci2_rep_c24	   1386		SGN-L1386-AJ012796   	ss-galactosidase
+loci2_rep_c24	   1386		SGN-L1386-AF154421   	ss-galactosidase
+loci2_rep_c24	   8214		SGN-L8214-AF154421   	beta-galactosidase 3
+loci2_rep_c25	   336		SGN-L336-AY382678   	CTR1-like protein kinase-4
+loci2_rep_c25	   5371		SGN-U586981-5371   	CTR1-like protein kinase
+loci2_rep_c25	   336		SGN-U586981-336   	CTR1-like protein kinase-4
+loci2_rep_c27	   694		SGN-L694-AJ132224   	hexose transporter 2
+loci2_rep_c27	   694		SGN-U579712-694   	hexose transporter 2
+loci2_rep_c27	   694		SGN-L694-BT012969   	hexose transporter 2
+loci2_rep_c27	   497		SGN-L497-M69248   	ethylene-induced P1 (p14)
+loci2_rep_c27	   497		SGN-L497-X68738   	ethylene-induced P1 (p14)
+loci2_rep_c27	   5217		SGN-L5217-DQ159948   	pathogenesis related protein PR1
+loci2_rep_c29	   22		SGN-L22-AK246297   	17.7 kD class I small heat shock protein HSP17.7
+loci2_rep_c29	   21		SGN-U578930-21   	17.6 kD class I small heat shock protein (HSP17.6)
+loci2_rep_c29	   23		SGN-U578930-23   	17.8 kD class I small heat shock protein (HSP17.8)
+loci2_rep_c29	   992		SGN-U578930-992   	mitochondrial small heat shock protein
+loci2_rep_c29	   22		SGN-U578930-22   	17.7 kD class I small heat shock protein HSP17.7
+loci2_rep_c29	   22		SGN-L22-AF123255   	17.7 kD class I small heat shock protein HSP17.7
+loci2_rep_c29	   22		SGN-L22-AY150040   	17.7 kD class I small heat shock protein HSP17.7
+loci2_rep_c29	   23		SGN-L23-AF123256   	17.8 kD class I small heat shock protein (HSP17.8)
+loci2_rep_c29	   22		SGN-L22-X56138   	17.7 kD class I small heat shock protein HSP17.7
+loci2_rep_c31	   5371		SGN-L5371-AY394002   	CTR1-like protein kinase
+loci2_rep_c31	   336		SGN-U566676-336   	CTR1-like protein kinase-4
+loci2_rep_c31	   5371		SGN-U566676-5371   	CTR1-like protein kinase
+loci2_rep_c35	   1296		SGN-L1296-AF448522   	ripening inhibitor
+loci2_rep_c35	   1296		SGN-U578471-1296   	ripening inhibitor
+loci2_rep_c35	   5429		SGN-U578471-5429   	MADS-box transcription factor MADS-rin
+loci2_rep_c35	   1296		SGN-L1296-AK246144   	ripening inhibitor
+loci2_rep_c35	   1296		SGN-L1296-DQ157795   	ripening inhibitor
+loci2_rep_c35	   1296		SGN-L1296-DQ157796   	ripening inhibitor
+loci2_rep_c35	   1296		SGN-L1296-DQ267532   	ripening inhibitor
+loci2_rep_c36	   854		SGN-L854-AF510743   	leucine aminopeptidase 1
+loci2_rep_c36	   854		SGN-U578637-854   	leucine aminopeptidase 1
+loci2_rep_c36	   33		SGN-U578637-33   	60S ribosomal protein L10
+loci2_rep_c36	   5600		SGN-U578637-5600   	leucine aminopeptidase A
+loci2_rep_c36	   33		SGN-L33-BT012759   	60S ribosomal protein L10
+loci2_rep_c36	   33		SGN-L33-DQ056435   	60S ribosomal protein L10
+loci2_rep_c36	   33		SGN-U592759-33   	60S ribosomal protein L10
+loci2_rep_c38	   490		SGN-L490-AY559314   	ethylene response factor 3
+loci2_rep_c38	   489		SGN-L489-AY275554   	ethylene response factor 2 AY275554
+loci2_rep_c38	   4227		SGN-L4227-AY275554   	ethylene response factor 2b
+loci2_rep_c38	   490		SGN-U564955-490   	ethylene response factor 3
+loci2_rep_c38	   490		SGN-L490-BT014126   	ethylene response factor 3
+loci2_rep_c38	   489		SGN-U564955-489   	ethylene response factor 2 AY275554
+loci2_rep_c38	   490		SGN-L490-AY192369   	ethylene response factor 3
+loci2_rep_c55	   187		SGN-L187-AY438027   	bacterial spot disease resistance protein 4
+loci2_rep_c55	   1223		SGN-L1223-AY438027   	proline transporter 3
+loci2_rep_c62	   153		SGN-L153-AY656837   	arginase 1
+loci2_rep_c62	   153		SGN-U567876-153   	arginase 1
+loci2_rep_c62	   154		SGN-U567876-154   	arginase 2
+loci2_rep_c62	   153		SGN-L153-BT013286   	arginase 1
+loci2_rep_c69	   5195		SGN-L5195-BT013322   	light dependent NADH:protochlorophyllide oxidoreductase 3 s1
+loci2_rep_c69	   5195		SGN-U580321-5195   	light dependent NADH:protochlorophyllide oxidoreductase 3 s1
+loci2_rep_c69	   5211		SGN-U580321-5211   	light dependent NADH:protochlorophyllide oxidoreductase 3 s2
+loci2_rep_c69	   5195		SGN-L5195-AF243524   	light dependent NADH:protochlorophyllide oxidoreductase 3 s1
+loci2_rep_c69	   5211		SGN-L5211-AF243523   	light dependent NADH:protochlorophyllide oxidoreductase 3 s2
+loci2_rep_c69	   5211		SGN-L5211-AH009616   	light dependent NADH:protochlorophyllide oxidoreductase 3 s2
+loci2_rep_c81	   1185		SGN-U564276-1185   	Mi-1.1
+loci2_rep_c81	   1305		SGN-U564276-1305   	Mi-1.2
+loci2_rep_c82	   5107		SGN-L5107-AF233745   	chaperonin 21 precursor
+loci2_rep_c82	   5107		SGN-U579474-5107   	chaperonin 21 precursor
+loci2_rep_c82	   5512		SGN-U579474-5512   	aminolevulinic acid dehydratase
+loci2_rep_c82	   5107		SGN-L5107-AK246328   	chaperonin 21 precursor
+loci2_rep_c82	   5107		SGN-U593063-5107   	chaperonin 21 precursor
+loci2_rep_c82	   5512		SGN-U593063-5512   	aminolevulinic acid dehydratase
+loci2_rep_c87	   153		SGN-U567875-153   	arginase 1
+loci2_rep_c87	   154		SGN-U586939-154   	arginase 2
+loci2_rep_c87	   154		SGN-U567875-154   	arginase 2
+loci2_rep_c87	   153		SGN-U586939-153   	arginase 1
+loci2_rep_c87	   154		SGN-L154-AY656838   	arginase 2
+loci2_rep_c95	   537		SGN-U580757-537   	farnesyl pyrophosphate synthase
+loci2_rep_c95	   4457		SGN-L4457-AAC73051   	LeFPS1
+loci2_rep_c95	   537		SGN-L537-AAC73051   	farnesyl pyrophosphate synthase
+loci2_rep_c95	   537		SGN-L537-BT013910   	farnesyl pyrophosphate synthase
+loci2_rep_c104	   5411		SGN-U570910-5411   	gamma-aminobutyrate transaminase subunit precursor isozyme 1
+loci2_rep_c104	   5411		SGN-L5411-AY240229   	gamma-aminobutyrate transaminase subunit precursor isozyme 1
+loci2_rep_c104	   8343		SGN-L8343-AB359916   	Gamma aminobutyrate transaminase isoform 1
+loci2_rep_c105	   1146		SGN-L1146-AF305968   	phosphatase (psi14C gene)
+loci2_rep_c105	   831		SGN-U571099-831   	LES459817 putative phosphatase 14A
+loci2_rep_c105	   830		SGN-U571099-830   	LES459816 putative phosphatase 14B
+loci2_rep_c105	   1146		SGN-U571099-1146   	phosphatase (psi14C gene)
+loci2_rep_c105	   1146		SGN-L1146-AJ459815   	phosphatase (psi14C gene)
+loci2_rep_c112	   5281		SGN-L5281-EF175474   	GAMyb-like1
+loci2_rep_c112	   5560		SGN-L5560-EF175474   	gamyb-like 1
+loci2_rep_c112	   5281		SGN-U573827-5281   	GAMyb-like1
+loci2_rep_c115	   789		SGN-U580664-789   	histone H2B
+loci2_rep_c115	   5438		SGN-L5438-AF321984   	lethal leaf spot 1
+loci2_rep_c115	   5438		SGN-U580664-5438   	lethal leaf spot 1
+loci2_rep_c115	   789		SGN-L789-AJ224931   	histone H2B
+loci2_rep_c115	   789		SGN-L789-AK246681   	histone H2B
+loci2_rep_c115	   5438		SGN-U592312-5438   	lethal leaf spot 1
+loci2_rep_c115	   789		SGN-U592312-789   	histone H2B
+loci2_rep_c117	   238		SGN-L238-AF198258   	calmodulin-binding diacylglycerol kinase 1
+loci2_rep_c117	   5459		SGN-U585112-5459   	diacylglycerol kinase
+loci2_rep_c117	   238		SGN-U585112-238   	calmodulin-binding diacylglycerol kinase 1
+loci2_rep_c119	   5459		SGN-L5459-AF198259   	diacylglycerol kinase
+loci2_rep_c119	   5459		SGN-U594698-5459   	diacylglycerol kinase
+loci2_rep_c119	   238		SGN-U594698-238   	calmodulin-binding diacylglycerol kinase 1
+loci2_rep_c122	   5429		SGN-L5429-AF448523   	MADS-box transcription factor MADS-rin
+loci2_rep_c122	   5429		SGN-U579014-5429   	MADS-box transcription factor MADS-rin
+loci2_rep_c122	   903		SGN-U579014-903   	macrocalyx
+loci2_rep_c129	   5502		SGN-L5502-Z21792   	DAHP synthase 1 precursor
+loci2_rep_c129	   1467		SGN-U581552-1467   	Tomato RuBP carboxylase small subunit
+loci2_rep_c129	   5502		SGN-U581552-5502   	DAHP synthase 1 precursor
+loci2_rep_c136	   5100		SGN-L5100-BT012973   	wound-induced protein
+loci2_rep_c136	   5100		SGN-U567805-5100   	wound-induced protein
+loci2_rep_c136	   1117		SGN-U567805-1117   	pathogen-induced protein
+loci2_rep_c136	   5100		SGN-L5100-AK246446   	wound-induced protein
+loci2_rep_c136	   5100		SGN-L5100-U89764   	wound-induced protein
+loci2_rep_c145	   1386		SGN-U578846-1386   	ss-galactosidase
+loci2_rep_c145	   8214		SGN-U578846-8214   	beta-galactosidase 3
+loci2_rep_c172	   1191		SGN-L1191-AY605668   	pollen-specific kinase partner protein
+loci2_rep_c172	   5308		SGN-U568547-5308   	GDP-mannose pyrophosphorylase DQ449030
+loci2_rep_c172	   1191		SGN-U568547-1191   	pollen-specific kinase partner protein
+loci2_rep_c184	   5166		SGN-U583008-5166   	NAC domain protein AY498713
+loci2_rep_c184	   8229		SGN-L8229-AY498713   	goblet
+loci2_rep_c184	   5166		SGN-L5166-AY498713   	NAC domain protein AY498713
+loci2_rep_c184	   5166		SGN-U583020-5166   	NAC domain protein AY498713
+loci2_rep_c191	   5454		SGN-L5454-AF175965   	cycloidea
+loci2_rep_c191	   776		SGN-U594432-776   	lanceolate
+loci2_rep_c205	   1291		SGN-L1291-AY456411   	ribosomal protein L3
+loci2_rep_c205	   861		SGN-U579621-861   	LEY14339 proteasome, alpha subunit
+loci2_rep_c205	   1291		SGN-U579621-1291   	ribosomal protein L3
+loci2_rep_c208	   1031		SGN-L1031-AY573802   	NAC domain protein
+loci2_rep_c208	   8229		SGN-L8229-AY573802   	goblet
+loci2_rep_c208	   1031		SGN-U568610-1031   	NAC domain protein
+loci2_rep_c219	   581		SGN-L581-BT013224   	FRUITFULL-like MADS-box 1
+loci2_rep_c219	   835		SGN-U578128-835   	TDR4
+loci2_rep_c219	   581		SGN-U578128-581   	FRUITFULL-like MADS-box 1
+loci2_rep_c219	   581		SGN-L581-AY306155   	FRUITFULL-like MADS-box 1
+loci2_rep_c254	   488		SGN-U577090-488   	ethylene response factor 1b
+loci2_rep_c254	   487		SGN-L487-AY077626   	ethylene response factor 1
+loci2_rep_c254	   487		SGN-U577090-487   	ethylene response factor 1
+loci2_rep_c254	   488		SGN-L488-AY077626   	ethylene response factor 1b
+loci2_rep_c254	   487		SGN-U594172-487   	ethylene response factor 1
+loci2_rep_c254	   488		SGN-U594172-488   	ethylene response factor 1b
+loci2_rep_c288	   1009		SGN-U579823-1009   	multicystatin
+loci2_rep_c288	   1009		SGN-L1009-AF083253   	multicystatin
+loci2_rep_c288	   1009		SGN-U593525-1009   	multicystatin
+loci2_rep_c288	   5587		SGN-L5587-AF198390   	cystatin 8
+loci2_rep_c288	   1009		SGN-L1009-AF198390   	multicystatin
+loci2_rep_c366	   33		SGN-U578338-33   	60S ribosomal protein L10
+loci2_rep_c366	   5600		SGN-U578338-5600   	leucine aminopeptidase A
+loci2_rep_c366	   854		SGN-U578338-854   	leucine aminopeptidase 1
+loci2_rep_c417	   5600		SGN-L5600-U20594   	leucine aminopeptidase A
+loci2_rep_c417	   854		SGN-L854-U20594   	leucine aminopeptidase 1
+loci2_rep_c473	   861		SGN-U581550-861   	LEY14339 proteasome, alpha subunit
+loci2_rep_c473	   1291		SGN-U581550-1291   	ribosomal protein L3
+loci2_rep_c493	   5423		SGN-L5423-AY150039   	type 1 small heat shock protein 17.6 kDa isoform
+loci2_rep_c493	   21		SGN-U578134-21   	17.6 kD class I small heat shock protein (HSP17.6)
+loci2_rep_c493	   5423		SGN-U578134-5423   	type 1 small heat shock protein 17.6 kDa isoform
+loci2_rep_c509	   363		SGN-L363-AK224655   	cystatin (STC)
+loci2_rep_c509	   363		SGN-U582175-363   	cystatin (STC)
+loci2_rep_c509	   363		SGN-L363-AF198389   	cystatin (STC)
+loci2_rep_c509	   5586		SGN-L5586-AF198389   	cystatine 10
+loci2_rep_c509	   363		SGN-L363-L24057   	cystatin (STC)
+loci2_rep_c555	   662		SGN-U568816-662   	green ripe
+loci2_rep_c555	   5321		SGN-U568816-5321   	green ripe DQ372895
+loci2_rep_c596	   849		SGN-U578026-849   	LEU76407  knotted 2
+loci2_rep_c596	   5483		SGN-U578026-5483   	class 1 knotted-like homeodomain protein
+loci2_rep_c617	   5417		SGN-L5417-AY157065   	WRKY transcription factor Iid-6
+loci2_rep_c617	   5417		SGN-U567227-5417   	WRKY transcription factor Iid-6
+loci2_rep_c617	   5418		SGN-U567227-5418   	WRKY transcription factor Iid-5
+loci2_rep_c617	   5418		SGN-L5418-AY157064   	WRKY transcription factor Iid-5
+loci2_rep_c622	   1388		SGN-U581248-1388   	ss-galactosidase, clone tEG3
+loci2_rep_c622	   8215		SGN-U581248-8215   	beta-galactosidase 4
+loci2_c699	   8232		SGN-U583638-8232   	Z,Z-farnesyl pyrophosphate synthase
+loci2_c699	   8270		SGN-U583638-8270   	neryl diphosphate synthase 1
+loci2_rep_c720	   1473		SGN-U578815-1473   	TOMPRP4  PR (pathogenesis related) protein 4
+loci2_rep_c720	   1473		SGN-L1473-M69247   	TOMPRP4  PR (pathogenesis related) protein 4
+loci2_rep_c720	   497		SGN-U593762-497   	ethylene-induced P1 (p14)
+loci2_rep_c720	   5217		SGN-U593762-5217   	pathogenesis related protein PR1
+loci2_c724	   5055		SGN-L5055-AK224649   	mini zinc finger protein
+loci2_c724	   4954		SGN-L4954-AM261628   	inhibitor of meristem activity
+loci2_c724	   5055		SGN-L5055-AM261628   	mini zinc finger protein
+loci2_rep_c726	   1467		SGN-L1467-AK246249   	Tomato RuBP carboxylase small subunit
+loci2_rep_c726	   1312		SGN-U578204-1312   	RUB1 conjugating enzyme
+loci2_rep_c726	   5502		SGN-U578689-5502   	DAHP synthase 1 precursor
+loci2_rep_c726	   1467		SGN-U578689-1467   	Tomato RuBP carboxylase small subunit
+loci2_rep_c726	   1467		SGN-U579094-1467   	Tomato RuBP carboxylase small subunit
+loci2_rep_c726	   1467		SGN-U579403-1467   	Tomato RuBP carboxylase small subunit
+loci2_rep_c726	   1467		SGN-L1467-BT013023   	Tomato RuBP carboxylase small subunit
+loci2_rep_c726	   1467		SGN-U578342-1467   	Tomato RuBP carboxylase small subunit
+loci2_rep_c726	   1467		SGN-L1467-M15236   	Tomato RuBP carboxylase small subunit
+loci2_rep_c726	   1467		SGN-U580246-1467   	Tomato RuBP carboxylase small subunit
+loci2_rep_c730	   1599		SGN-L1599-X67143   	Phytoene synthase 1
+loci2_rep_c730	   5338		SGN-U580375-5338   	phytoene synthase
+loci2_rep_c730	   1599		SGN-U580375-1599   	Phytoene synthase 1
+loci2_rep_c746	   1299		SGN-U579178-1299   	ripening-related mRNA 13
+loci2_rep_c746	   1299		SGN-L1299-BT014260   	ripening-related mRNA 13
+loci2_rep_c746	   1299		SGN-L1299-AK224685   	ripening-related mRNA 13
+loci2_rep_c746	   1299		SGN-U581194-1299   	ripening-related mRNA 13
+loci2_rep_c746	   1299		SGN-L1299-X72731   	ripening-related mRNA 13
+loci2_rep_c746	   1290		SGN-U593797-1290   	ribosomal protein L2
+loci2_rep_c796	   581		SGN-U577950-581   	FRUITFULL-like MADS-box 1
+loci2_rep_c796	   835		SGN-U577950-835   	TDR4
+loci2_rep_c809	   1191		SGN-U595679-1191   	pollen-specific kinase partner protein
+loci2_rep_c809	   5308		SGN-U595679-5308   	GDP-mannose pyrophosphorylase DQ449030
+loci2_rep_c822	   861		SGN-U593486-861   	LEY14339 proteasome, alpha subunit
+loci2_rep_c822	   1291		SGN-U593486-1291   	ribosomal protein L3
+loci2_c836	   8232		SGN-L8232-FJ194969   	Z,Z-farnesyl pyrophosphate synthase
+loci2_c836	   8270		SGN-L8270-FJ797956   	neryl diphosphate synthase 1
+loci2_rep_c839	   497		SGN-U580143-497   	ethylene-induced P1 (p14)
+loci2_rep_c839	   5217		SGN-U580143-5217   	pathogenesis related protein PR1
+loci2_rep_c873	   4505		SGN-L4505-DQ058745   	Abscicic acid stress ripening 1
+loci2_rep_c873	   4506		SGN-U581076-4506   	Abscicic acid stress ripening 2
+loci2_rep_c873	   4505		SGN-U581076-4505   	Abscicic acid stress ripening 1
+loci2_rep_c873	   4505		SGN-L4505-DQ058749   	Abscicic acid stress ripening 1
+loci2_rep_c877	   1599		SGN-U578676-1599   	Phytoene synthase 1
+loci2_rep_c877	   5338		SGN-U578676-5338   	phytoene synthase
+loci2_rep_c886	   789		SGN-U591004-789   	histone H2B
+loci2_rep_c886	   5438		SGN-U591004-5438   	lethal leaf spot 1
+loci2_rep_c904	   4506		SGN-U577499-4506   	Abscicic acid stress ripening 2
+loci2_rep_c904	   4507		SGN-U577499-4507   	Abscicic acid stress ripening 3
+loci2_rep_c915	   1550		SGN-U596707-1550   	viroid RNA-binding protein
+loci2_rep_c915	   5410		SGN-U596707-5410   	gamma-aminobutyrate transaminase subunit precursor isozyme 2
+loci2_rep_c921	   5065		SGN-U578924-5065   	glycine rich protein
+loci2_rep_c921	   5506		SGN-U578924-5506   	glycine rich protein X55690
+loci2_c931	   1059		SGN-L1059-AF092655   	putative high affinity nitrate transporter 1
+loci2_c931	   1060		SGN-U570066-1060   	putative high affinity nitrate transporter 2
+loci2_c931	   1059		SGN-U570066-1059   	putative high affinity nitrate transporter 1
+loci2_rep_c939	   5450		SGN-U579604-5450   	eukaryotic translation initiation factor 5A-1
+loci2_rep_c939	   5516		SGN-U579604-5516   	RuBP carboxylase small subunit
+loci2_rep_c946	   5107		SGN-U590589-5107   	chaperonin 21 precursor
+loci2_rep_c946	   5512		SGN-U590589-5512   	aminolevulinic acid dehydratase
+loci2_c1026	   5210		SGN-U579517-5210   	fruit-specific protein TOM2A11
+loci2_c1026	   1471		SGN-U579517-1471   	TOMMTA  metallothionein II
+loci2_c1029	   5381		SGN-L5381-AY007562   	glutathione S-transferase T5
+loci2_c1029	   5381		SGN-U579895-5381   	glutathione S-transferase T5
+loci2_c1029	   5113		SGN-U579895-5113   	photosystem 1 reaction center protein subunit 2
+loci2_rep_c1043	   903		SGN-U577905-903   	macrocalyx
+loci2_rep_c1043	   903		SGN-U590863-903   	macrocalyx
+loci2_rep_c1043	   5429		SGN-U577905-5429   	MADS-box transcription factor MADS-rin
+loci2_rep_c1043	   5429		SGN-U590863-5429   	MADS-box transcription factor MADS-rin
+loci2_c1046	   4509		SGN-L4509-AM180140   	Deficiens
+loci2_c1046	   5145		SGN-U568823-5145   	APETALA3
+loci2_c1048	   1614		SGN-U586045-1614   	(1-4)-beta-mannan endohydrolase precursor
+loci2_c1048	   1614		SGN-L1614-AF184238   	(1-4)-beta-mannan endohydrolase precursor
+loci2_c1048	   5260		SGN-L5260-AF184238   	(1-4)-beta-mannan endohydrolase precursor 2
+loci2_c1052	   5243		SGN-U592081-5243   	gibberellin 2-oxidase 4
+loci2_c1052	   5243		SGN-U578575-5243   	gibberellin 2-oxidase 4
+loci2_c1052	   5242		SGN-U578575-5242   	gibberellin 2-oxidase 5
+loci2_rep_c1087	   5516		SGN-U578246-5516   	RuBP carboxylase small subunit
+loci2_rep_c1087	   5450		SGN-U578246-5450   	eukaryotic translation initiation factor 5A-1
+loci2_c1090	   8270		SGN-U583641-8270   	neryl diphosphate synthase 1
+loci2_c1090	   8232		SGN-U583641-8232   	Z,Z-farnesyl pyrophosphate synthase
+#
+#
+# The number of consensi printed above: 79
+#
+#

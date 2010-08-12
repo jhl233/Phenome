@@ -1,0 +1,14 @@
+
+This directory contains all of the files and scripts related to tomato loci. This includes:
+
+1. Extracting GenBank mRNA and unigene sequences from the database
+
+2. Running MIRA to align the sequences and find tentative consensus sequences
+   for each tomato locus
+
+3. Creating an easy-to-read file of which sequences create which consensus
+
+4. Determining the consensus sequences which have errors (i.e. having sequences
+   that appear in two or more other consensus sequences)
+
+5. Converting an ace file to an aligned multi-FASTA file

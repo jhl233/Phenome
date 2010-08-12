@@ -1,0 +1,1 @@
+mira --project=loci2 --job=denovo,est,normal,sanger --fasta SANGER_SETTINGS -CL:qc=no -LR:wqf=no -AS:epoq=no
